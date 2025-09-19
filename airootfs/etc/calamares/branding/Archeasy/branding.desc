@@ -1,0 +1,77 @@
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+#
+## Distribution Branding Settings
+
+---
+componentName:  Archeasy
+
+## Show "Welcome to the Calamares installer for ArchEasy." instead?
+welcomeStyleCalamares:   false
+
+## Should the welcome image be scaled up beyond its natural size?
+welcomeExpandingLogo:   true
+
+## Should the calamares window expand?
+# Size and expansion policy for Calamares.
+#  - "normal" or unset, expand as needed, use *windowSize*
+#  - "fullscreen", start as large as possible, ignore *windowSize*
+#  - "noexpand", don't expand automatically, use *windowSize*
+windowExpanding:    noexpand
+
+## Size of Calamares window, expressed as w,h. (px, em)
+windowSize: 800px,600px
+
+## Placement of Calamares window. Either "center" or "free".
+windowPlacement: center
+
+## Sidebar Style (widget, qml, none)
+sidebar: widget
+
+## Navigation Style, buttons on the bottom (widget, qml, none)
+navigation: widget
+
+## Strings
+strings:
+    productName:         ArchEasy
+    shortProductName:    ArchEasy
+#    version:             null
+#    shortVersion:        null
+    versionedName:       ArchEasy
+    shortVersionedName:  ArchEasy
+    bootloaderEntryName: ArchEasy
+    productUrl:          https://assistouest.fr
+    supportUrl:          https://assistouest.fr
+    knownIssuesUrl:      https://assistouest.fr
+    releaseNotesUrl:     https://assistouest.fr
+    donateUrl:           https://buymeacoffee.com/assistouest
+
+## Images
+# productBanner : On top of welcome text (64x460)
+# productIcon : Icon on titlebar (16x16)
+# productLogo : Logo in sidebar (80x80)
+# productWallpaper : Replace the solid color in main window (800x520)
+# productWelcome : In the middle of main window on welcome (320x150)
+images:
+    #productBanner:       "banner.png"
+    productIcon:         "icon.svg"
+    productLogo:         "logo.svg"
+    #productWallpaper:    "wallpaper.png"
+    productWelcome:      "welcome.png"
+
+## Colors for text and background components in sidebar only.
+style:
+   SidebarBackground:        "#F8F9FA"   # gris très clair au lieu du gris foncé
+   SidebarText:              "#4A4A4A"   # gris foncé (lisible sur clair)
+   SidebarTextCurrent:       "#000000"   # noir pur pour l’étape active
+   SidebarBackgroundCurrent: "#E0E0E0"   # gris moyen, discret pour surbrillance
+
+## Slideshow
+slideshow:               "show.qml"
+slideshowAPI: 2
+
+## Upload the logs to pastebins:
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1

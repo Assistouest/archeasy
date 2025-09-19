@@ -1,0 +1,24 @@
+# Arch/ArchISO
+out/
+work/
+*.iso
+*.img
+*.tar
+*.tar.*
+*.zip
+*.7z
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node / Python si présents
+node_modules/
+dist/
+__pycache__/
+*.pyc
+MOK.key
+MOK.crt

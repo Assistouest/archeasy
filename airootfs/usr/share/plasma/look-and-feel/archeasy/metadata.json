@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Id": "archeasy",
+    "Name": "ArchEasy",
+    "Description": "ArchEasy Global Theme (wallpaper + defaults + layout)",
+    "Version": "1.0",
+    "License": "GPL-3.0-or-later",
+    "EnabledByDefault": true,
+    "Authors": [
+      { "Name": "Adrien", "Email": "example@example.com" }
+    ],
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;"
+  }
+}
